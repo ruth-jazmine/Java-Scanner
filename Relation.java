@@ -1,4 +1,4 @@
-public class Relate {
+public class Relation {
     public static void main(String[] args) {
         int a =10;
         int b =20;
@@ -9,8 +9,8 @@ public class Relate {
         System.out.println(a>=b);
         System.out.println(a<=b);
 
-        System.out.println(new Relate() == new Relate());
-        System.out.println(new Relate() != new Relate());
+        System.out.println(new Relation() == new Relation());
+        System.out.println(new Relation() != new Relation());
     }
     
 }
